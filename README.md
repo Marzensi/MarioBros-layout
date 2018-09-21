@@ -1,4 +1,4 @@
-# MarioBros-layout
+# MarioBros-layout - not finished
 
 Layout devoted to a video game made by Nintendo in 1985. 
 
