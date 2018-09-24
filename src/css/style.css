@@ -1,0 +1,7 @@
+@import "./portials/global-class.css";
+@import "./portials/layout.css";
+@import "./portials/normalize.css";
+@import "./portials/print.css";
+
+@import "./components/page-header.css";
+@import "./components/main-banner.css";
