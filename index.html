@@ -5,8 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie-edge">
     <title>Mario Bros game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&subset=latin-ext">
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
@@ -14,7 +13,7 @@
     <header class="page-header">
         <div class="container">
             <div class="page-logo-cnt">
-                <a href="/" class="page-logo">
+                <a href="#" class="page-logo">
                     <img src="images/logo.png"  class="page-logo-img" alt="WebsitePNG">
                 </a>
             </div>
@@ -22,16 +21,16 @@
             <nav class="page-nav">
                 <ul class="page-nav-list">
                     <li>
-                        <a href="/">Home page</a>
+                        <a href="#">Home page</a>
                     </li>
                     <li>
-                        <a href="/">About game</a>
+                        <a href="#">About game</a>
                     </li>
                     <li>
-                        <a href="/">How to play</a>
+                        <a href="#">How to play</a>
                     </li>
                     <li>
-                        <a href="/">Contact</a>
+                        <a href="#">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -44,7 +43,7 @@
                 <div class="banner-slide" id="imgban1">
                     <h2 class="banner-slide-title">Lorem ipsum 1.</h2>
                     <div class="banner-slide-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem blanditiis consequatur cum cumque dolorem itaque modi nemo, non, perferendis placeat ratione rem unde? Accusantium alias aliquam asperiores, beatae delectus deleniti dolorem eum facilis fugiat illum itaque, laborum molestias nam natus nesciunt provident, quibusdam quod rerum soluta sunt suscipit veniam voluptatem.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at dicta dolor dolore earum, eligendi enim fuga fugiat itaque iusto, magni maxime nihil odio officia possimus quaerat quas repellendus rerum sapiente vitae? Deleniti doloremque dolorum enim eum incidunt labore laudantium magnam possimus tenetur veritatis? Aut cumque cupiditate dicta ducimus, eligendi enim hic id nam nesciunt, obcaecati pariatur perferendis soluta ut!
                     </div>
                     <div class="banner-slide-btn-cnt">
                         <a href="/" class="banner-slide-btn">Dowiedz się więcej</a>
@@ -63,15 +62,28 @@
                 <div class="banner-slide" id="imgban3">
                     <h2 class="banner-slide-title">Lorem ipsum 3.</h2>
                     <div class="banner-slide-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem blanditiis consequatur cum cumque dolorem itaque modi nemo, non, perferendis placeat ratione rem unde? Accusantium alias aliquam asperiores, beatae delectus deleniti dolorem eum facilis fugiat illum itaque,
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at dicta dolor dolore earum, eligendi enim fuga fugiat itaque iusto, magni maxime nihil odio officia possimus quaerat quas repellendus rerum sapiente vitae? Deleniti doloremque dolorum enim eum incidunt labore laudantium magnam possimus tenetur veritatis? Aut cumque cupiditate dicta ducimus, eligendi enim hic id nam nesciunt, obcaecati pariatur perferendis soluta ut!
                     </div>
                     <div class="banner-slide-btn-cnt">
                         <a href="/" class="banner-slide-btn">Dowiedz się więcej</a>
                     </div>
                 </div>
             </div>
-            <button id="banner-prev">Poprzedni slajd</button>
-            <button id="banner-next">Następny slajd</button>
+            <div id="banner-change-cnt">
+                <button id="banner-prev" class="fa fa-angle-left"></button>
+                <button id="banner-next" class="fa fa-angle-right"></button>
+            </div>
+            <ul class="banner-pagination">
+                <li>
+                    <button>"1"</button>
+                </li>
+                <li>
+                    <button>"2"</button>
+                </li>
+                <li>
+                    <button>"3"</button>
+                </li>
+            </ul>
         </div>
         <div class="main-hero-video">
             <video width="100%" height="100%" autoplay loop preload muted>
@@ -80,6 +92,11 @@
             </video>
         </div>
         <div class="main-hero-scroll"></div>
+    </div>
+    <div class="blocks-container">
+        <div class="blocks">
+        </div>
+
     </div>
     <script src="./js/app.js"></script>
 </body>
