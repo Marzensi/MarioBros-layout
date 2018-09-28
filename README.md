@@ -2,4 +2,4 @@
 
 Layout devoted to a video game made by Nintendo in 1985. 
 
-![mariobros-layout](https://user-images.githubusercontent.com/37555980/46148849-43d22400-c269-11e8-9b63-60564449ebbb.jpg)
+![screenshot](https://user-images.githubusercontent.com/37555980/46213285-76971d80-c338-11e8-8832-5d3bd9577884.jpg)
